@@ -36,6 +36,7 @@ p {
 }
 
 .avatar-photo {
+    transition: transform 0.3s;
     border: 4px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
@@ -45,6 +46,7 @@ p {
 }
 
 .avatar-photo:hover {
+    transform: scale(1.5);
     border: 4px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
@@ -84,9 +86,11 @@ li {
     font-family: "SUSE", sans-serif;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
+    transition: transform 0.3s;
 }
 
 li:hover {
+    transform: scale(1.1);
     color: l#f06;
     font-family: "SUSE", sans-serif;
 }
@@ -104,3 +108,22 @@ a:hover {
     text-decoration: underline;
 }
 
+@keyframes profile-appear {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
