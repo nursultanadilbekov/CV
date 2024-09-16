@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: "SUSE", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile {
+    display: inline-block;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    animation: profile-appear 2s ease-in-out;
+}
+.avatar-one {
+    width: 150px;  
+    height: auto;
+    border-radius: 50%;
+}
+
+.avatar-two {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.avatar-photo {
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.avatar-photo:hover {
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.bio {
+    font-size: 1.2rem;
+    color: #ffe;
+}
+
+section {
+    margin-bottom: 2rem;
+    animation: fadeIn 3s ease-in-out;
+}
+
+h2 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffeb3b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: "SUSE", sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+li:hover {
+    color: l#f06;
+    font-family: "SUSE", sans-serif;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
